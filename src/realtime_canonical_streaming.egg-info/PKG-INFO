@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: realtime-canonical-streaming
+Version: 1.0.0
+Summary: Real-time canonical streaming: Kafka + Spark + Iceberg + Snowflake
+Requires-Python: >=3.11
+Requires-Dist: langgraph>=0.2.50
+Requires-Dist: langchain-core>=0.3.0
+Requires-Dist: langchain-ollama>=0.2.0
+Requires-Dist: langchain-anthropic>=0.3.0
+Requires-Dist: langchain-openai>=0.2.0
+Requires-Dist: langchain-mcp-adapters>=0.3.0
+Requires-Dist: mcp>=1.5.0
+Requires-Dist: kafka-python>=2.0.2
+Requires-Dist: pyspark>=3.5.0
+Requires-Dist: pyiceberg[pyarrow,sql-sqlite]>=0.7.0
+Requires-Dist: snowflake-connector-python[pandas]>=3.12.0
+Requires-Dist: psycopg2-binary>=2.9.9
+Requires-Dist: teradatasql>=20.0.0
+Requires-Dist: aiohttp>=3.10.0
+Requires-Dist: pydantic>=2.9.0
+Requires-Dist: pydantic-settings>=2.6.0
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: structlog>=24.4.0
+Requires-Dist: rich>=13.9.0
+Requires-Dist: typer>=0.12.0
+Requires-Dist: pandas>=2.2.0
+Requires-Dist: pyarrow>=17.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.24.0; extra == "dev"
