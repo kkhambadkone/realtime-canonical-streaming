@@ -121,6 +121,8 @@ cp .env.example .env
 
 `src/config.py` loads everything through `pydantic-settings`. Key settings:
 
+you can use the provided .env file and fill in your details
+
 | Section | Variable | Notes |
 |---|---|---|
 | LLM | `LLM_PROVIDER` | `ollama` (default), `anthropic`, or `openai` |
