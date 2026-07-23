@@ -4,6 +4,8 @@ A real-time streaming pipeline that discovers schemas across PostgreSQL, SQL Ser
 
 ## Architecture
 
+<img src="architecture.jpg" alt="Architecture" width="400" height="400">
+
 ```
 Sources (Postgres / SQL Server / Teradata)
         │  CDC-style polling (producer.py)
