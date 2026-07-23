@@ -4,7 +4,10 @@ A real-time streaming pipeline that discovers schemas across PostgreSQL, SQL Ser
 
 ## Architecture
 
-<img src="architecture.jpg" alt="Architecture" width="400" height="400">
+
+<p align="center">
+   <img src="architecture.jpg" alt="Architecture" width="800" height="800">
+</p>
 
 ```
 Sources (Postgres / SQL Server / Teradata)
